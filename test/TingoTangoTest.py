@@ -46,6 +46,15 @@ class TingoTangoPrueba(unittest.TestCase):
         # Assert
         self.assertEqual(self.resultadoEsperado, self.resultadoActual)
 
+    def test_tingoTango_otroLetra_retornaNumero(self):
+        # Arrange
+        self.numero = "a"
+        self.resultadoEsperado = "Error: Ingresa un entero"
+        # Do
+        self.resultadoActual = self.TT.textoTingoTango(self.numero)
+        # Assert
+        self.assertEqual(self.resultadoEsperado, self.resultadoActual)
+
 
 
 

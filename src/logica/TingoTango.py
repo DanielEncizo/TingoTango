@@ -11,4 +11,8 @@ class TingoTango:
         else:
             return str(numero)
 
+        if type(numero)=="a":
+            print("Error: Ingrese un entero")
+
+
 
