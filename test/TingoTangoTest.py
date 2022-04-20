@@ -46,6 +46,7 @@ class TingoTangoPrueba(unittest.TestCase):
         # Assert
         self.assertEqual(self.resultadoEsperado, self.resultadoActual)
 
+
     def test_tingoTango_otroLetra_retornaNumero(self):
         # Arrange
         self.numero = "a"
